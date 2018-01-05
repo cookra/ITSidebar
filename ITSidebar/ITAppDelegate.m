@@ -68,7 +68,7 @@
         [self.sidebar addItemWithImage:[NSImage imageNamed:@"watch-pushed"] alternateImage:[NSImage imageNamed:@"watch"] target:self action:@selector(watchClicked:)];
         [self.sidebar addItemWithImage:[NSImage imageNamed:@"tag-pushed"] alternateImage:[NSImage imageNamed:@"tag"] target:self action:@selector(tagClicked:)];
         [self.sidebar addItemWithImage:[NSImage imageNamed:@"trash-pushed"] alternateImage:[NSImage imageNamed:@"trash"] target:self action:@selector(trashClicked:)];
-         [self.sidebar addItemWithImage:[NSImage imageNamed:@"push-pushed"] alternateImage:[NSImage imageNamed:@"push"] target:self action:@selector(pushClicked:)];
+        [self.sidebar addItemWithImage:[NSImage imageNamed:@"push-pushed"] alternateImage:[NSImage imageNamed:@"push"] target:self action:@selector(pushClicked:)];
         
         // Because this mehthod does not support empty selection, we obviously disable it.
         // Note to set the allowsEmptySelection AFTER adding the items, because else it won't be able to select the first item
